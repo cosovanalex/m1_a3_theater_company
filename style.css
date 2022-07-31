@@ -1,0 +1,267 @@
+* {
+    /* border: 1px solid red; */
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    margin-top: 0px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    background-color: black;
+}
+
+.navbar-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+    background-color: black;
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+    background-color: black;
+}
+
+.nav-item {
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+    padding-top: 0.5em;
+}
+.navbar-brand h1 {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color:rgb(29, 177, 210)
+}
+
+.image {
+    z-index: -1;
+    position: relative;
+    width: 100%;
+}
+
+.background {
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    margin: 0px;
+}
+
+.image h1 {
+    position: absolute;
+    top: 250px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 6em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    background-color: transparent;
+    margin: 0px;
+    z-index: 1;
+}
+
+.flexbox-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    margin: 0px;
+}
+
+.month {
+    width: auto;
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid gray;
+    background-color: rgb(237, 230, 230);
+    padding: 10px;
+    margin-left: 9em;
+    margin-right: 9em;
+}
+
+h5 {
+    width: 30%;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+}
+
+.show {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-bottom: 1px solid darkgray;
+    margin-left: 9em;
+    margin-right: 9em;
+}
+
+.thumbnail {
+    height: 150px;
+    width: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-bottom: 1em;
+}
+.description {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    padding-top: 0px;
+}
+
+h3 {
+    margin: 0px;
+    padding: 5px;
+}
+
+h4 {
+    margin: 0px;
+    padding: 5px;
+}
+
+p {
+    margin: 0px;
+    padding: 5px;
+}
+
+button {
+    display: flex;
+    background-color: rgb(230, 182, 22);  
+    color: white;
+    border-radius: 2px;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 3em;
+}
+
+button:hover {
+    color:rgb(29, 177, 210);
+}
+
+
+.bottom {
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: space-evenly;
+}
+
+.map {
+    width: 250px;
+    padding: 2%;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.mapimg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    margin-right: 4em;
+}
+
+.footinfo {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.footshows {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.shows {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.media {
+    display: flex;
+    flex-direction: column;
+
+}
+.foothead {
+    font-size: 2em;
+    padding: 5px;
+}
+
+.tiny {
+    margin: 3px;
+    font-size:small;
+}
+
+.fas  {
+    color: rgb(230,182,22);
+}
+
+.far  {
+    color: rgb(230,182,22);
+}
+
+.fab  {
+    color: rgb(230,182,22);
+}
